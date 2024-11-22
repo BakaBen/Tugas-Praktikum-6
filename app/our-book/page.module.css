@@ -1,0 +1,18 @@
+.bookGrid {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bookList {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

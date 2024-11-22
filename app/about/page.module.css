@@ -1,0 +1,29 @@
+/* app/about/page.module.css */
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .profileInfo {
+    text-align: center;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutContainer {
+      padding: 30px 15px;
+    }
+  
+    .profileInfo {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
